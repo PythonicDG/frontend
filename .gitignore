@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+/dist/
+dist/
+build/
+out/
+
+# Vite cache
+.vite/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / test output
+coverage/
+.nyc_output/
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+
+# Docker / runtime
+*.pid
+*.seed
+*.pid.lock
+
+# NPM package lock is usually committed; only ignore if intentionally not tracking
+# package-lock.json
+
+# Optional local production config
+*.local
+
+# Misc
+.cache/
+.parcel-cache/
